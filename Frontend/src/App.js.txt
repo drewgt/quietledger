@@ -1,0 +1,13 @@
+import React from "react";
+import ReceiptUpload from "./components/ReceiptUpload";
+
+function App() {
+  return (
+    <div style={{ padding: "2rem", fontFamily: "Arial" }}>
+      <h1>QuietLedger - Receipt Tracker</h1>
+      <ReceiptUpload />
+    </div>
+  );
+}
+
+export default App;
